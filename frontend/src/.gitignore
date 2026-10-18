@@ -1,0 +1,22 @@
+# Dependencies
+
+node_modules/
+
+# Environment variables and secrets
+
+.env
+.env.*
+!.env.example
+
+# Build files
+
+frontend/dist/
+frontend/build/
+dist/
+build/
+coverage/
+
+# Logs
+
+npm-debug.log*
+yarn-debug.log*
